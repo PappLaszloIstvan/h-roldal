@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weboldal logikai részeinek meghatározása</title>
+    <style>
+        section {
+            border: 2px solid brown;
+            margin: 5px;
+            padding: 5px 20px;
+        }
+
+        article {
+            background-color: lightgoldenrodyellow;
+        }
+
+        section>p {
+            font-size: 2em;
+            color: red;
+        }
+
+        header {
+            background-color: peru;
+            height: 2cm;
+            text-align: center;
+        }
+
+        nav {
+            width: 80%;
+            border: double 4px darkred;
+            margin: auto;
+        }
+
+        nav>ul>li {
+            display: inline;
+            background-color: orange;
+            color: red;
+
+        }
+
+        footer {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header><img src="Képek/news.jpg" width="400px" height="100px"></header>
+    <nav>
+        <h2>
+            Kiemelt rovatok
+        </h2>
+        <ul>
+            <li><a href="#1">Érdekességek</a></li>
+            <li><a href="#2">Sport események</a></li>
+            <li><a href="#3">Elérhetőségek</a></li>
+        </ul>
+    </nav>
+    <section>
+
+        <p>Friss hírek</p>
+        <article>Csodálatos lett Debrecen új karácsonyi villamosa</article>
+        <article>Dzsudzsák Balázs kezdőrúgásával avatták fel a debreceni Szent László Gimnázium új sportpályáját</article>
+        <article>Bolygót neveztek el Karikó Katalinról</article>
+        <section>
+            <p>Érdekességek</p>
+            <div id="1">
+                <article>
+                    <h2>Világrekordot állított fel egy német férfi 444 karácsonyfával a lakásában</h2>
+                    <p>
+                        Az alsó-szászországi Rintelnben élő 55 éves Thomas Jeromin és a felesége, Susanne évről évre
+                        valóságos "karácsony-csodaországgá" változtatja saját otthonát a rengeteg feldíszített
+                        műfenyővel.
+                    </p>
+                    <img src="Képek/Karácsonyfák.jpg">
+                    <p>
+                        A karácsonyfák között akadnak tematikusak is, például Star Wars-figurákkal vagy gumikacsákkal
+                        díszített fenyők.
+                    </p>
+                    Forrás:<a
+                        href="https://444.hu/2021/12/06/egy-karacsonyorult-nemet-ferfi-444-feldiszitett-mufenyot-allitott-fel-a-lakasaban">!!444!!!</a>
+
+                    <article>
+                        <h2>Könnyek az X-Faktor után: de kire haragudott Gáspár Laci?</h2>
+                        <p>Rengeteg izgalmat tartogatott az idei X-Faktor harmadik élő show-ja, amelynek a végén két
+                            versenyzőnek kellett távoznia az RTL Klub tehetségkutatójából.</p>
+                        Forrás:<a
+                            href="https://www.blikk.hu/sztarvilag/sztarsztorik/gaspar-laci-friss-hirek-x-faktor/h39bw1j">Blikk</a>
+
+                    </article>
+
+                    <article>
+                        <h2>Szerdától megint csökkenhet a benzinár a hazai kutakon</h2>
+                        <p>Bár a november közepén bevezetett ársapka miatt az üzemanyagárak felső korlátja 480 forint,
+                            az olajár elmúlt időszakban látott esése miatt a nagykereskedelmi ár csökkenést mutat.</p>
+                        <p>A magyar kormány november 15-től befagyasztotta az üzemanyagárakat, így maximum 480 forint
+                            lehet a 95-ös benzin és a gázolaj ára a hazai kutakon. Ettől függetlenül a nagykereskedelmi
+                            árban továbbra is láthatók változások és az omikron variáns miatt kialakult negatív piaci
+                            hangulatban jelentősen csökkent az olaj világpiaci ára.</p>
+                        forrás:<a
+                            href="https://www.portfolio.hu/gazdasag/20211206/szerdatol-megint-csokkenhet-a-benzinar-a-hazai-kutakon-514668">Portfolio</a>
+                    </article>
+            </div>
+        </section>
+        <div id="2">
+            <section>
+                <p>Sport események </p>
+                <article>Letartóztatták az olasz focicsapat elnökét</article>
+                <article>Csollány Szilveszter lélegeztetőgépre került</article>
+                <article>Hamilton: Verstappen azt hiszi, rá nem vonatkoznak a szabályok</article>
+            </section>
+        </div>
+
+    </section>
+    <div id="3">
+        <footer>
+            Ezt az oldalt szerkeztette: Papp László István, Elérhetőségek: szerk-mec@gmail.com <br>
+        </footer>
+    </div>
+</body>
+
+</html>
